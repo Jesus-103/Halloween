@@ -1,0 +1,43 @@
+/***************************************************/
+/*  autor: Jesús Martín                            */
+/*  fecha: 9-11-2023                               */
+/*  version: 1.0                                   */
+/*  comentario: Es una web de halloween            */
+/***************************************************/
+
+@font-face {
+    font-family: titulo;
+    src: url(../font/acheron.regular.otf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(../font/avalen-rekas.regular.otf);
+}
+
+body {background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: normal;
+    font-size: 2em;}
+
+    #wrapper {width: 80%;
+        margin: auto;
+    }
+
+nav {font-family: titulo;}
+
+#hero {background-image: url(../img/hero_section.jpg);
+    height:95vh;   
+    background-size: cover; 
+    background-position: 66.66%;  
+    font-family: titulo;
+    color: chocolate;
+    font-size: 1.5em;
+    padding-left: 20px;
+        padding-top: 20px;
+}
+
+@media only screen  and (width<650px){
+    #wrapper {width: 85%;}
+    #hero {background-image: url();}
+}
