@@ -20,7 +20,9 @@ body {background-color: rgb(0, 0, 0);
     font-family: normal;
     font-size: 2em;}
 
-    #wrapper {width: 80%;
+p {font-family: normal;}
+
+#wrapper {width: 80%;
         margin: auto;
     }
 
