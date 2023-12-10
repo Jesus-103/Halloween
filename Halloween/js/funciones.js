@@ -8,3 +8,4 @@ function myFunction() {
     }
 } 
 
+/* si no me equivoco esto hace las cuatro lineas para HOME y demas y me falla pero no se por que */
