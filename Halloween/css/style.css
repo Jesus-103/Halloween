@@ -180,7 +180,7 @@ nav {font-family: titulo;}
 
 @media only screen  and (width<650px){  
     #wrapper {width: 85%;}
-    #drakkar {width: 100%;}
+    #Halloween {width: 100%;}
     .grid-2 {grid-template-columns: 100%;}
     .grid-4 {grid-template-columns: 100%;}
 
