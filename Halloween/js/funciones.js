@@ -8,4 +8,4 @@ function myFunction() {
     }
 } 
 
-/* si no me equivoco esto hace las cuatro lineas para HOME y demas y me falla pero no se por que */
+/* lo de las cuatro lineas para HOME y demas me falla y no se por que, lo he mirado en  w3schools y lo tengo igual */
