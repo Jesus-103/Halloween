@@ -14,21 +14,22 @@
 
 @font-face {
     font-family: normal;
-    src: url(../font/avalen-rekas.regular.otf);
+    src: url(../font/Nilky\ and\ Miky.otf);
 }
+
 
 /********* layout general ***************/
 
 body {background-color: rgb(0, 0, 0);
         color: white;
-        font-family: titulo;
+        font-family: normal;
         font-size: 2em;}
 
 #wrapper {width: 80%;
             margin: auto;
             }
 
-.titulo {font-family: normal;
+.titulo {font-family: titulo;
             text-align: center;
             font-size: 1.5em;
             margin: 4vh;}
@@ -133,14 +134,14 @@ nav {font-family: titulo;}
 
 #fotos img {width: 100%;}
 
-  /* Make the image to responsive */
+/* Make the image to responsive */
 .image {
     display: block;
     width: 100%;
     height: auto;
 }
 
-  /* The overlay effect - lays on top of the container and over the image */
+/* The overlay effect - lays on top of the container and over the image */
 .overlay {
     position: absolute;
     bottom: 0;
