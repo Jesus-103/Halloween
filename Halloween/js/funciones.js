@@ -7,5 +7,3 @@ function myFunction() {
     x.className = "topnav";
     }
 } 
-
-/* lo de las cuatro lineas para HOME y demas me falla y no se por que, lo he mirado en  w3schools y lo tengo igual */
