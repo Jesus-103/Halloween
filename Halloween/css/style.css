@@ -32,7 +32,8 @@ body {background-color: rgb(0, 0, 0);
 .titulo {font-family: titulo;
             text-align: center;
             font-size: 1.5em;
-            margin: 4vh;}
+            margin: 4vh;
+            color: rgb(255, 106, 0);}
 
 html {scroll-behavior: smooth;}
 
@@ -58,7 +59,7 @@ nav {position: sticky;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 /* Change the color of links on hover */
@@ -91,17 +92,19 @@ nav {font-family: titulo;}
     color: rgb(255, 106, 0);
     font-size: 1.5em;
     padding-left: 20px;
-        padding-top: 20px;
+    padding-top: 20px;
+}
+#hero span {
+    background-color: #333333c0;
+    padding: 10px;
+    font-size: 2em;
+    margin: 20px;
 }
 
 /************** intro section *********************/
 
 #intro{padding: 5%;
     border-bottom: 2px solid #ffffff;}
-
-#drakkar {width: 40%;  
-        float: left;  
-        margin: 7px 20px 10px 0px;} 
 
 #intro p::first-letter{font-size: 1.5em;
                     color: #ffffff;}
@@ -119,14 +122,14 @@ nav {font-family: titulo;}
 #ejemplo-grid-2 img {width:100%}
 
 #ejemplo-grid-2 button {background-color: black;
-                        border: 2px solid #ffffff;
-                        color: #ffffff;
+                        border: 2px solid rgb(255, 106, 0);
+                        color: rgb(255, 106, 0);
                         font-weight: bold;
                         padding: 10px;}
 
 /****************** :hover es "al poner el ratón encima ***************/
 
-#ejemplo-grid-2 button:hover {background-color: #ffffff;
+#ejemplo-grid-2 button:hover {background-color: rgb(255, 106, 0);
     color: black;}
 
 /******************* section gallery ****************/
@@ -143,6 +146,16 @@ nav {font-family: titulo;}
 
 .col-4 {padding: 8%;
         border:1px solid #ffffff;}
+
+/**************** footer ***********************/
+
+footer {background-color: #333333;
+    padding: 5%;}
+
+.fa {font-size: 1.2em;
+    margin-right: 10px;;}
+
+a .fa {color: white;}
 
 /****************** reponsividad ********************/
 
